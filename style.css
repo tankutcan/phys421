@@ -1,0 +1,64 @@
+/* Physics 421 — course site
+   Everything here is load-bearing. Anything not in this file is the
+   browser's default, on purpose. */
+
+body {
+  /* The text column. Larger = wider text, narrower margins.
+     44rem tight · 52rem current · 64rem wide · none = edge to edge. */
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 5rem;
+
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.5;
+}
+
+/* Lecture screenshots are ~1700px wide; without this they blow the layout
+   out to their natural width and the text column drifts off-centre. */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* A long derivation shouldn't widen the page — let it scroll on its own. */
+.math.display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Hairlines only. Without border-collapse the schedule table gets the
+   browser's default embossed 3D borders. */
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+th, td {
+  padding: .3rem 1.5rem .3rem 0;
+  vertical-align: top;
+}
+
+/* Keep compact calendar dates such as "W Sep 16" on one line. */
+.schedule th:nth-child(2),
+.schedule td:nth-child(2) {
+  white-space: nowrap;
+}
+
+/* The course-info table at the top has no header row — keep it flush. */
+table:first-of-type td { border: none; }
+
+/* Wide content scrolls rather than forcing the whole page sideways. */
+pre, code { overflow-x: auto; max-width: 100%; }
+
+@media print {
+  body { max-width: none; padding: 0; }
+  a { text-decoration: none; color: inherit; }
+  tr { page-break-inside: avoid; }
+}

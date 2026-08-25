@@ -1,0 +1,8 @@
+.DS_Store
+_site/
+*.pdf.bak
+
+# Never commit solutions or copyrighted course materials.
+solutions/
+*solutions*
+*Solutions*

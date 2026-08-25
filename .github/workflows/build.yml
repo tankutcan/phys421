@@ -1,0 +1,66 @@
+name: build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:      # lets you rebuild by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# If you push twice quickly, cancel the older run rather than racing.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update -qq && sudo apt-get install -y pandoc
+
+      - name: Build site
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+
+          # Landing page: the syllabus.
+          pandoc syllabus.md \
+            --standalone --katex=https://cdn.jsdelivr.net/npm/katex@0.16/dist/ --css style.css \
+            --metadata pagetitle="Physics 421 — Thermodynamics & Statistical Mechanics" \
+            --output _site/index.html
+          cp style.css _site/
+
+          # Lecture notes: one HTML page per markdown file.
+          if compgen -G "notes/*.md" > /dev/null; then
+            mkdir -p _site/notes
+            for f in notes/*.md; do
+              pandoc "$f" \
+                --standalone --katex=https://cdn.jsdelivr.net/npm/katex@0.16/dist/ --css ../style.css \
+                --metadata pagetitle="Physics 421" \
+                --output "_site/notes/$(basename "${f%.md}").html"
+            done
+            [ -d notes/images ] && cp -r notes/images _site/notes/
+          fi
+
+          # Problem sets / handouts, if present.
+          [ -d hw ] && cp -r hw _site/ || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
