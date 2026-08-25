@@ -102,10 +102,17 @@ Caution: lecture notes are not proofread, and may contain errors. If you think y
 
 ## References
 For problems and lectures, I will draw from many resources. If something doesn't make sense in one book, it might make sense in another. I recommend looking around. Almost all of the textbooks and notes are freely available online (just google "author + title + pdf"):
+
 - Blundell & Blundell - Concepts in Thermal Physics
+
 - Goodstein - States of Matter
+
 - [Daniel Arovas Lectures Notes](https://courses.physics.ucsd.edu/2025/Spring/physics210a/lectures.html)
+
 - [David Tong Lectures on Statistical Physics](https://davidtong.org/teaching/statistical-physics/)
+
 - Kittel & Kroemer - Thermal Physics
+
 - Reif - Fundamentals of Statistical and Thermal Physics
+
 - Fermi - Thermodynamics 
