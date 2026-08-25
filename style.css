@@ -5,7 +5,7 @@
 body {
   /* The text column. Larger = wider text, narrower margins.
      44rem tight · 52rem current · 64rem wide · none = edge to edge. */
-  max-width: 52rem;
+  max-width: 58rem;
   margin: 0 auto;
   padding: 2rem 1.5rem 5rem;
 
@@ -16,7 +16,7 @@ body {
 /* Lecture screenshots are ~1700px wide; without this they blow the layout
    out to their natural width and the text column drifts off-centre. */
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   display: block;
   margin: 1.5rem auto;
@@ -45,11 +45,18 @@ th, td {
   vertical-align: top;
 }
 
+.schedule th:first-child,
+.schedule td:first-child {
+  padding-right: 0.1rem;
+}
+
 /* Keep compact calendar dates such as "W Sep 16" on one line. */
 .schedule th:nth-child(2),
 .schedule td:nth-child(2) {
   white-space: nowrap;
 }
+
+
 
 /* The course-info table at the top has no header row — keep it flush. */
 table:first-of-type td { border: none; }

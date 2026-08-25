@@ -2,16 +2,17 @@
 title: "Lecture 3"
 ---
 
-Book Sections covered
-1.5 Compression Work
-1.6 Heat Capacities (a little)
-
 ## Review of the Basic Equations 
 
 #### First Law:
+
  $$\Delta U = Q + W$$
+ 
 #### Ideal Gas Law (equation of state):
-$$ PV = N k T$$
+
+$$
+PV = N k T
+$$
 
 #### Equipartition theorem for an ideal gas:
 
@@ -19,11 +20,11 @@ $$U = \frac{f N}{2} k T = \frac{f}{2} PV$$
 
 For non-interacting particles, the internal energy (aka thermal energy) is the average kinetic energy that gives rise to the temperature measurements. The binding energy of nuclei, the rest energy of electrons, etc., doesn't contribute to thermal energy in the energy ranges that matter for classical thermodynamics. They are said to be "frozen out". Rotational and vibrational motion of molecules also doesn't matter at all temperatures - they are only relevant at very high temperatures. 
 
-%%The RHIC has created quark-gluon plasma at approx. $4 \times 10^{12}$ Celsius. Measured by wavelength of emitted light. 
-%%
+Factoid:
+The RHIC has created quark-gluon plasma at approx. $4 \times 10^{12}$ Celsius. Measured by wavelength of emitted light. 
 
 
-## **Irreversible Expansion into Vacuum
+## Irreversible Expansion into Vacuum
 
 A thermally insulated box is partitioned into two regions. The left region is filled with gas and in equilibrium, the right region is empty. At some time t = 0, the partition is opened and the gas expands into the full volume. How much a) Work is done by the gas, 2) heat is exchanged, and 3) thermal energy change?
 
@@ -33,7 +34,7 @@ A thermally insulated box is partitioned into two regions. The left region is fi
 from *Fermi's Thermodynamics*:
 ![](images/Screenshot%202025-09-04%20at%2012.09.57%20PM.png)
 
-#### **State space and PV diagrams:**
+#### State space and PV diagrams
 
 Every point on a PV diagram describes the complete state of a gas, if we are also given the total number of molecules $N$ and the type of molecules (degrees of freedom). For $PV = N k T$ if $N$ does not change, then there are only two independent variables governing the state of the gas. So we can represent the state on a P-V diagram. A curve on the P-V plane represents a reversible process
 
@@ -81,7 +82,7 @@ $$
 $U = C_{V} T$ by definition. Classical physics predicts that $C_{V}$ is independent of temperature. But it depends!
 
 
-**Revisiting equipartition:**
+### Revisiting equipartition
 
 Vibrational modes are simple harmonic oscillators, $H_{vib} = p^{2} + x^{2}$, and so each mode has two degrees of freedom. 
 
@@ -90,10 +91,10 @@ Thus for diatomic molecules, we saw above that $f = 7$. Three of these degrees o
 ![](images/Screenshot%202025-09-02%20at%205.11.19%20PM.png)
 
 
-## Exercises
-----
+# Exercises
+***
 
-### **Practice with PV diagrams:**
+### Practice with PV diagrams:
 ![](images/Screenshot%202025-09-02%20at%204.25.23%20PM.png)
 
 *Solution:*
@@ -152,7 +153,7 @@ If they start at the same volume, then after rising, bubble $A$ will be larger. 
 
 ***
 
-### **Equation of State of a Photon Gas**  (from homework 2)
+### Equation of State of a Photon Gas
 
 In this problem, we will write down the equation of state of a gas of weakly interacting photons. In cosmology, this serves as a model for an ultrarelativistic gas. We cannot apply kinetic theory for particles and the equipartition theorem to write the average internal energy in terms of temperature. But we can get a relation between pressure, volume, and energy, essentially using only Newton's Laws and a few facts from relativity.
 
@@ -246,12 +247,6 @@ Where the internal energy is just $N$ times the average energy per photon.
 
 
 
-There is also a nice discussion of this in Feynman's lecture:
+There is also a nice discussion of this in *Feynman's lecture*:
 
 ![](images/Screenshot%202025-09-02%20at%209.15.09%20AM.png)
-
-
-
-**Open questions:**
-1) What's up with scuba diving. Why are you supposed to rise slowly?
-2) Why does fast release from a pressurized canister cause it to cool?
