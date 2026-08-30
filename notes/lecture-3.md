@@ -2,12 +2,12 @@
 title: "Lecture 3"
 ---
 
-## Review of the Basic Equations 
+Quiz:
+A gas is compressed to half its volume at constant pressure, slowly such that it remains in equilibrium the entire time. Sketch this on a PV diagram. 
 
-#### First Law:
+## Review of the Basic Equations so far
 
- $$\Delta U = Q + W$$
- 
+
 #### Ideal Gas Law (equation of state):
 
 $$
@@ -23,6 +23,23 @@ For non-interacting particles, the internal energy (aka thermal energy) is the a
 Factoid:
 The RHIC has created quark-gluon plasma at approx. $4 \times 10^{12}$ Celsius. Measured by wavelength of emitted light. 
 
+## State Variables
+
+We have discussed the ideal gas law, and in this lecture we will discuss the first law of thermodynamics, which is the equation for energy conservation. Very importantly, in understanding the first law, it's crucial to keep track of state variables. 
+
+A state variable is just what I described as macroscopic or thermodynamic variables in the first lecture. They are the small number of variables that we believe completely describe a thermodynamic system in equilibrium. From the ideal gas, we get a few: pressure, temperature, volume. Equipartition tells us also that internal energy $U$ is a state variable. Anticipating future developments, we can also mention that entropy is a state variable.
+
+## Heat and Work
+
+In this lecture, we'll cover the first law of thermodynamics, which is summarized in the equation:
+$$\Delta U = Q + W$$
+This is a simple statement of the conservation of energy for thermal systems. Internal energy $U$ is a **state variable**, which an equilibrium system. However, heat flow $Q$ and work $W$ are not state variables. They do not describe a state a system is not, but rather a process that the system undergoes. 
+
+$W$ is the work done *on the system*. The way I remember this is that if there is work done on the system, that's like squeezing it. And when I squeeze e.g. a stress ball, it gets hot, so the internal energy goes up. 
+
+Q is the total heat flow into the system. If heat flow is positive ($Q>0$), then the energy increases. If heat flow $Q<0$, then energy decreases 
+
+For this reason, the book uses the confusing notation that on the LHS there is a $\Delta$, while on the RHS there is no $\Delta$. This is to remind you that the state variable $U$ changes via non-state-variable process variables $W$ and $Q$. 
 
 ## Irreversible Expansion into Vacuum
 

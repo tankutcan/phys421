@@ -82,7 +82,7 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 11 | M Nov 2  | Boltzmann distribution | 6.1-6.2 |  |
 | 11 | W Nov 4  | Boltzmann distribution | 6.3-6.4 |
 | 12 | M Nov 9  | Partition Functions and Free Energy | 6.5-6.6  |
-| 12 | W Nov 11 | Ideal Gas Law  | 6.7 |  |
+| 12 | W Nov 11 | Ideal Gas Law from Stat Mech | 6.7 |  |
 | 13 | M Nov 16 | Review Ch. 4-6 |  |  |
 | 13 | W Nov 18 |**Exam 2**  |  |  |
 | 14 | M Nov 23 | Bosons and Fermions | 7.1 - 7.2  |  |

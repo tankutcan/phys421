@@ -2,7 +2,12 @@
 title: "Lecture 2"
 ---
 
-Book Sections: 1.1 - 1.4
+Quiz:
+In flatland, particles exist in two-dimensions. Consider a gas in flatland. What is the average kinetic energy per particle of a gas at temperature $T$? 
+
+
+
+In the previous lecture, I discussed the ideal gas law $PV = N kT$, discussed the fact that the temperature that appears in this equation is the absolute temperature, which reaches zero at about -273 C. Why should temperature have zero point? For a non-interacting gas of particles, it is connected to the fact that kinetic energy cannot be negative. Let's show this right now. 
 
 ### Microscopic description of Ideal Gas Law (Kinetic Theory)
 
@@ -48,7 +53,7 @@ If the gas consists of diatomic molecules, we must now also include a potential 
 
 $V = \frac{k}{2} || {\bf x}_{1} - {\bf x}_{2}||^{2}$
 
-This counts as 1 quadratic degree of freedom. In relative coordinates (assuming both particles are the same mass), ${\bf r} = {\bf x}_{1} - {\bf x}_{2}$, and $R = {\bf x}_{1} + {\bf x}_{2}$, the Hamiltonian
+This counts as 1 quadratic degree of freedom. In relative coordinates (assuming both particles are the same mass), ${\bf r} = {\bf x}_{1} - {\bf x}_{2}$, and $R = {\bf x}_{1} + {\bf x}_{2}$, the Hamiltonian (which is just the total energy, kinetic + potential)
 
 $$
 H = \frac{1}{2m} \left(|| {\bf p}_{1}||^{2} + || {\bf p}_{2}||^{2}\right) + \frac{k}{2} || {\bf x}_{1} - {\bf x}_{2}||^{2}
@@ -62,11 +67,7 @@ $$
 Counting *quadratic* degrees of freedom per molecule, we find $f = 3 + 3 + 1 = 7$.
 
 
-## Heat and Work
 
-The important equation here is the first law of the thermodynamics:
-$$\Delta U = Q + W$$
-Here, $W$ is the work done *on the system*. The way I remember this is that if there is work done on the system, that's like squeezing it. And when I squeeze e.g. a stress ball, it gets hot, so the internal energy goes up. 
 
 ***
 ## Exercises
