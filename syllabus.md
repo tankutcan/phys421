@@ -64,8 +64,8 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 2  | M Aug 31 | Ideal gas, equipartition (*travel*) | 1.1 - 1.3 |1.16,1.22,1.26,1.27,1.29, 1.30 | [Lecture 2](notes/lecture-2.html) |
 | 2  | W Sep 2  | Heat, Work, First Law  (*travel*)| 1.4 - 1.5| 1.31,1.34,1.38,1.39 |[Lecture 3](notes/lecture-3.html) |
 | 3  | M Sep 7  | *No class — Labor Day* |  |
-| 3  | W Sep 9  | PV diagrams, Heat Capacity | 1.1 - 1.6 | 1.41,1.44,1.45,1.46 |
-| 4  | M Sep 14 | Second Law, Statistical Mechanics | 2.1 - 2.3 |2.2, 2.4, 2.7, 2.8. 2.11 |
+| 3  | W Sep 9  | PV diagrams, Heat Capacity | 1.1 - 1.6 | 1.41,1.44,1.45,1.46 |[Lecture 4](notes/lecture-4.html)|
+| 4  | M Sep 14 | Second Law, Statistical Mechanics | 2.1 - 2.3 |2.2, 2.4, 2.7, 2.8. 2.11 |[Lecture 5](notes/lecture-5.html)
 | 4  | W Sep 16 | Large systems, combinatorics | 2.4 - 2.6 | 2.12, 2.17, 2.19, 2.23, 2.24, 2.25 |
 | 5  | M Sep 21 | Entropy, Ideal gas law | 2.4 - 2.6  | 2.34, 2.35, 2.36, 2.41, 2.42 |
 | 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |
