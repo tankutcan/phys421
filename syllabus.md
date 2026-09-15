@@ -94,6 +94,11 @@ I will regularly update the calendar with lecture notes and reading assignments.
 |    | M Dec 14 | **Final Exam** 11:30am - 2pm| | |
 :::
 
+## Extra Homework Problems
+For your homework, you can also choose from the following set of additional problems, which I will keep adding to as the semester progresses. These are problems I used on past exams.
+ 
+[Additional Problems](notes/additional-problems.html)
+
 ## Lecture Notes
 Caution: lecture notes are not proofread, and may contain errors. If you think you spot an error, please let me know!
 
