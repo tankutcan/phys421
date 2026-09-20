@@ -71,6 +71,8 @@ In the first figure below, I plot the spin orientation with black ($+1$) and whi
 
 In the next plot, we show the total magnetization of the left chain and the right chain as time progresses. As seen, despite the total magnetization being constant, the spin exchange interaction mixes the two subsystems and eventually brings their subsystem magnetization close to zero, with some fluctuations. 
 ![](images/magnetization%201.png)
+(To run these simulations yourself, you can visit the google colab notebook [Spin Exchange Thermalization](https://drive.google.com/file/d/1Hu2bnGyWk2UQ_JjLz7_0ogqq_SvYyYfW/view?usp=sharing) If you want to make edits, you'll have to download a copy and work on that.)
+
 
 The important point here is that we essentially have a choice of how to define macrostates. Since we began with two subsystems, it is most natural to consider the macrostate of the composite system using two coordinates $(M_{L}, M_{R})$ describing the macrostate for each. However, since there are interactions, we know the two macrostates cannot be chosen independently, but rather must satisfy the constraint
 

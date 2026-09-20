@@ -105,6 +105,13 @@ Caution: lecture notes are not proofread, and may contain errors. If you think y
 [All lecture notes](notes/index.html)
 
 
+## Simulation Notebooks
+I will upload links to notebooks below:
+
+[Spin Exchange Thermalization](https://drive.google.com/file/d/1Hu2bnGyWk2UQ_JjLz7_0ogqq_SvYyYfW/view?usp=sharing) This is the thermalizing spin chain that I discussed in class (see [Lecture 6](notes/lecture-6.html)). Make sure to open it with Google Colab. This link gives you viewer access. If you want to make edits and play around with the code, you can download a copy and work on that. 
+
+
+
 ## References
 For problems and lectures, I will draw from many resources. If something doesn't make sense in one book, it might make sense in another. I recommend looking around. Almost all of the textbooks and notes are freely available online (just google "author + title + pdf"):
 
