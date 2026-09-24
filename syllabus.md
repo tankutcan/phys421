@@ -70,27 +70,27 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 5  | M Sep 21 | Entropy, Ideal gas law | 2.4 - 2.6  | 2.34, 2.35, 2.36, 2.41, 2.42 |
 | 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |
 | 6  | M Sep 28 | Thermodynamic identity | 3.3 - 3.4  | 3.19, 3.25, 3.27, 3.33, 3.34 |
-| 6  | W Sep 30 |Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |
-| 7  | M Oct 5  |Review Ch. 1-3 |  |  |
-| 7  | W Oct 7  |**Exam 1**   |  |
+| 6  | W Sep 30 | Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |
+| 7  | M Oct 5  | Cycles, Heat, Work, 2nd Law | 4.1 | 4.1, 4.4, 4.5, 4.6 |
+| 7  | W Oct 7  | Review Ch. 1 - 3 |  |
 | 8  | M Oct 12 | *No class - Fall Break* |  |  |
-| 8  | W Oct 14 | Cycles, Heat, Work, 2nd Law  | 4.1 |
-| 9  | M Oct 19 | Carnot Cycle, Engines and Fridges  | 4.2 - 4.3 |  |
-| 9  | W Oct 21 | Thermodynamic Potentials | 5.1-5.2 |  |
-| 10 | M Oct 26 | Phase transitions, PT diagrams | 5.3 |  |
+| 8  | W Oct 14 | **Exam 1**   |  |
+| 9  | M Oct 19 | Carnot Cycle, Engines and Fridges  | 4.2 - 4.3 | 4.7, 4.8, 4.14, 4.15, 4.16, 4.21 |
+| 9  | W Oct 21 | Thermodynamic Potentials | 5.1-5.2 | 5.8, 5.12, 5.14, 5.17, 5.18, 5.19, 5.21, 5.23 |
+| 10 | M Oct 26 | Phase transitions, PT diagrams | 5.3 | 5.20, 5.30, 5.31, 5.33, 5.43 |
 | 10 | W Oct 28 | Phase transitions, PT diagrams | 5.3  |  |
-| 11 | M Nov 2  | Boltzmann distribution | 6.1-6.2 |  |
-| 11 | W Nov 4  | Boltzmann distribution | 6.3-6.4 |
-| 12 | M Nov 9  | Partition Functions and Free Energy | 6.5-6.6  |
-| 12 | W Nov 11 | Ideal Gas Law from Stat Mech | 6.7 |  |
+| 11 | M Nov 2  | Boltzmann distribution | 6.1-6.2 |6.16, 6.17, 6.18, 6.19, 6.20, 6.22  |
+| 11 | W Nov 4  | Boltzmann distribution | 6.3-6.4 |6.31, 6.35, 6.38, 6.41 |
+| 12 | M Nov 9  | Partition Functions and Free Energy | 6.5-6.6  | 6.42, 6.43, 6.44| 
+| 12 | W Nov 11 | Ideal Gas Law from Stat Mech | 6.7 |  6.45, 6.51, 6.52 |
 | 13 | M Nov 16 | Review Ch. 4-6 |  |  |
 | 13 | W Nov 18 |**Exam 2**  |  |  |
-| 14 | M Nov 23 | Bosons and Fermions | 7.1 - 7.2  |  |
+| 14 | M Nov 23 | Bosons and Fermions | 7.1 - 7.2  | 7.3, 7.6, 7.7, 7.8, 7.12  |
 | 14 | W Nov 25 | *No class — Thanksgiving* | — |  |
 | 15 | M Nov 30 | Bosons and Fermions  | 7.1 - 7.2 |  |
-| 15 | W Dec 2  | Fermi Gases |  |
-| 16 | M Dec 7  | Blackbody Radiation |  |
-| 16 | W Dec 9  | Bose-Einstein Condensation  |  |
+| 15 | W Dec 2  | Fermi Gases | 7.3 | 7.16, 7.17, 7.20, 7.23, 7.27, 7.28|
+| 16 | M Dec 7  | Blackbody Radiation | 7.4 | 7.37, 7.43, 7.44, 7.45, 7.53, 7.54|
+| 16 | W Dec 9  | Bose-Einstein Condensation  | 7.5 - 7.6 |7.72, 7.74 |
 |    | M Dec 14 | **Final Exam** 11:30am - 2pm| | |
 :::
 
