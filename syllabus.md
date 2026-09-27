@@ -67,8 +67,8 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 3  | W Sep 9  | PV diagrams, Heat Capacity | 1.1 - 1.6 | 1.41,1.44,1.45,1.46 |[Lecture 4](notes/lecture-4.html)|
 | 4  | M Sep 14 | Second Law, Statistical Mechanics | 2.1 - 2.3 |2.2, 2.4, 2.7, 2.8. 2.11 |[Lecture 5](notes/lecture-5.html)
 | 4  | W Sep 16 | Large systems, combinatorics | 2.4 - 2.6 | 2.12, 2.17, 2.19, 2.23, 2.24, 2.25 |[Lecture 6](notes/lecture-6.html)
-| 5  | M Sep 21 | Entropy, Ideal gas law | 2.4 - 2.6  | 2.34, 2.35, 2.36, 2.41, 2.42 |
-| 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |
+| 5  | M Sep 21 | Entropy, Ideal gas law | 2.4 - 2.6  | 2.34, 2.35, 2.36, 2.41, 2.42 |[Lecture 7](notes/lecture-7.html)
+| 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |[Lecture 8](notes/lecture-8.html)
 | 6  | M Sep 28 | Thermodynamic identity | 3.3 - 3.4  | 3.19, 3.25, 3.27, 3.33, 3.34 |
 | 6  | W Sep 30 | Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |
 | 7  | M Oct 5  | Cycles, Heat, Work, 2nd Law | 4.1 | 4.1, 4.4, 4.5, 4.6 |
