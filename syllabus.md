@@ -59,7 +59,7 @@ I will regularly update the calendar with lecture notes and reading assignments.
 
 ::: {.schedule}
 | Week | Date | Topic | Reading | Problems | Notes |
-|--|--------|----------------------|-------------|---------|-------|
+|--|--------|----------------------|-----------|----------|--------|
 | 1  | W Aug 26 |Overview, Equilibrium, Temperature, Micro/Macro  | 1.1  | | [Lecture 1](notes/lecture-1.html) |
 | 2  | M Aug 31 | Ideal gas, equipartition (*travel*) | 1.1 - 1.3 |1.16,1.22,1.26,1.27,1.29, 1.30 | [Lecture 2](notes/lecture-2.html) |
 | 2  | W Sep 2  | Heat, Work, First Law  (*travel*)| 1.4 - 1.5| 1.31,1.34,1.38,1.39 |[Lecture 3](notes/lecture-3.html) |
@@ -69,8 +69,8 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 4  | W Sep 16 | Large systems, combinatorics | 2.4 - 2.6 | 2.12, 2.17, 2.19, 2.23, 2.24, 2.25 |[Lecture 6](notes/lecture-6.html)
 | 5  | M Sep 21 | Entropy, Ideal gas law | 2.4 - 2.6  | 2.34, 2.35, 2.36, 2.41, 2.42 |[Lecture 7](notes/lecture-7.html)
 | 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |[Lecture 8](notes/lecture-8.html)
-| 6  | M Sep 28 | Thermodynamic identity | 3.3 - 3.4  | 3.19, 3.25, 3.27, 3.33, 3.34 |
-| 6  | W Sep 30 | Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |
+| 6  | M Sep 28 | Thermodynamic identity | 3.3 - 3.4  | 3.19, 3.25, 3.27, 3.33, 3.34 |[Lecture 9](notes/lecture-9.html)
+| 6  | W Sep 30 | Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |[Lecture 10](notes/lecture-10.html)
 | 7  | M Oct 5  | Cycles, Heat, Work, 2nd Law | 4.1 | 4.1, 4.4, 4.5, 4.6 |
 | 7  | W Oct 7  | Review Ch. 1 - 3 |  |
 | 8  | M Oct 12 | *No class - Fall Break* |  |  |

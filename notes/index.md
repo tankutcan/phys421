@@ -12,5 +12,7 @@ title: "Physics 421 — Lecture Notes"
 - [Lecture 6](lecture-6.html)
 - [Lecture 7](lecture-7.html)
 - [Lecture 8](lecture-8.html)
+- [Lecture 9](lecture-9.html)
+- [Lecture 10](lecture-10.html)
 - [Lecture 11](lecture-11.html)
 - [Additional Problems](additional-problems.html)
