@@ -12,9 +12,27 @@ The black trajectory on the $P$–$V$ plane below shows a quasi-static thermodyn
 
 **(a)** Draw arrows on the diagram indicating the direction in which the cycle must be taken for the gas to do net positive work.
 
+**Solution:** Arrows must be drawn so that they appear to traverse the cycle in a clockwise fashion. 
+
 **(b)** Find the net work done by the gas.
 
+**Solution:**
+$$
+W^{by\,\,gas} = \int_{V_{1}}^{V_{2}} \frac{N k T_{2}}{V} dV  -  \int_{V_{1}}^{V_{2}} \frac{N k T_{2}}{V} dV = N k \left( T_{2} - T_{1}\right) \ln \left( V_{2}/V_{1}\right)
+$$
+
+
 **(c)** Find the total amount of heat absorbed, $Q_{\mathrm{abs}}$, by the gas, and indicate the path or paths along which the gas absorbs this heat.
+
+**Solution:**
+- A) Isothermal expansion at $T_{2}$. $Q = W^{b. g} = N k T_{2} \ln \left( V_{2}/V_{1}\right) > 0$
+- B) Constant Volume Cooling at $V_{2}$: $Q = \Delta U = \frac{f}{2} N k \left( T_{1} - T_{2}\right) < 0$
+- C) Isothermal compression at $T_{1}$ : $Q = W^{b.g.} = - N k T_{1} \ln \left( V_{2}/V_{1}\right) <0$
+- D) Constant volume heating at $V_{1}$: $Q = \Delta U = \frac{f}{2} N k \left( T_{2} - T_{1}\right) > 0$
+
+So the heat flows into the gas along paths A and D, whereas it flows out of the gas along paths B and C. 
+
+
 
 ### Problem 2
 
@@ -34,6 +52,34 @@ An ideal gas is expanded from its initial state to a final volume $V$ without ex
 2. The gas expands quasi-statically and reversibly.
 
 Will the final pressure be different in these two scenarios? If so, after which process will the pressure be higher? Explain your reasoning. The answer does not depend on the details of the gas, such as whether it is monatomic or diatomic.
+
+
+
+
+**Solution:**
+
+**Process 1:** During free expansion, $\Delta T = 0$, so that $P_{f} V_{f} = P_{i} V_{i}$. This means the ratio
+
+
+$$\frac{P_{f}^{1}}{P_{i}} = \frac{V_{i}}{V}
+$$
+
+
+
+**Process 2:** If the process is quasistatic and adiabatic, all of the state variables change (except particle number), so we have instead $P_{f} V_{f}/T_{f} = P_{i} V_{i}/T_{i}$. Since $Q = 0$, $\Delta U = - W^{by\,\, gas}$. During expansion, the gas will do positive work, so $\Delta U \propto (T_{f} - T_{i}) < 0$, and this implies $T_{f}/T_{i} < 1$. Rearranging the relation above gives
+
+$$
+\frac{P_{f}^{2}}{P_{i}} = \frac{T_{f}}{T_{i}} \frac{V_{i}}{V_{f}} < \frac{V_{i}}{V_{f}} 
+$$
+
+
+I got the inequality because $T_{f}/T_{i} < 1$. But the RHS above is equal to the pressure during process 1, so we get
+
+$$
+\frac{P_{f}^{2}}{P_{i}} < \frac{P_{f}^{1}}{P_{i}}
+$$
+Since they start at the same pressure, $P_{f}^{2} < P_{f}^{1}$.  **Process 1, free expansion, has the higher final pressure.**
+
 
 
 ### Problem 4

@@ -77,6 +77,7 @@ Takeaway: in order for a process to be **reversible** (i.e. $\Delta S = 0$) and 
 Conversely, if heat is exchanged across a temperature difference, net entropy is generated, and the process is described as being **irreversible** (i.e. $\Delta S > 0$)
 
 
+
 ## Carnot's Theorem:
 
 ![](images/Screenshot%202025-10-09%20at%202.42.15%20PM.png)
@@ -87,7 +88,7 @@ The Carnot cycle (shown in on the P-V plane above) is the simplest reversible cy
 
 To compute the efficiency, we need to be careful about keeping track of the direction in which heat is transferred. Along the $T_{h}$ isotherm, the gas absorbs heat. Let's call this $Q_{h}$. The total change in entropy along this trajectory is
 
-$$\Delta S_{AB} = \int \frac{\bar{d} Q}{T_{h}} = \frac{1}{T_{h}} \int \bar{d} Q = \frac{Q_{h}}{T_{h}}$$
+$$\Delta S_{AB} = \int \frac{\delta Q}{T_{h}} = \frac{1}{T_{h}} \int \delta Q = \frac{Q_{h}}{T_{h}}$$
 (Note: only use this formula for isothermal processes!)
 
 The path $B\to C$ is adiabatic, which means $\Delta S_{BC} = 0$. Similarly, $\Delta S_{DA} = 0$. The process from $C \to D$ will lose heat. Let us denote the heat lost by the positive quantity $Q_{l}$, so that the change in entropy is
@@ -157,46 +158,6 @@ $$
 So the second law of thermodynamics implies that the Carnot efficiency is maximal. Below, we gives some alternative proofs of this same result. 
 
 
+Here is a ChatGPT illustration based on the diagram I drew in class:
 
-## Carnot, Kelvin, and Clausius Formulations of Second Law:
-
-A note about the proof below. The Carnot engine efficiency is taken to be 
-
-$$
-\eta_{C} = \frac{W^{by \, system}}{Q_{h}} = 1 - \frac{T_{l}}{T_{h}}
-$$
-
-When the Carnot cycle is reversed, the work done by the system now becomes work done on the system. However, the ratio stays the same. For the reversed Carnot cycle in Fig. 13.4 of the excerpt below:
-
-$$
-\frac{W^{on\, system}}{Q_{h}} = \eta_{C} = 1 - \frac{T_{l}}{T_{h}}
-$$
-However, the reversed Carnot cycle is now acting as a refrigerator, which means the metric of performance is no longer the efficiency but the so-called coefficient of performance:
-
-$$
-\epsilon = \frac{Q_{l}}{W^{on \, system}}
-$$
-Just as the Carnot cycle gives the optimal efficiency for a heat engine, it will give the maximal coefficient of performance. Having fixed the identity above, we know that 
-
-$$
-W^{on \, system}+ Q_{l} = Q_{h}
-$$
-This implies
-
-$$
-\epsilon_{C} = \frac{Q_{l}}{Q_{h} - Q_{l}} = \frac{Q_{l}}{Q_{h}} \left(1 - \frac{Q_{l}}{Q_{h}}\right)^{-1}
-$$
-But note that $\eta_{C} = 1 - Q_{l}/Q_{h}$, which means we can write
-
-$$
-\epsilon_{C} = (1 - \eta_{C})/\eta_{C} = \eta_{C}^{-1} - 1
-$$
-
-From the textbook ***Blundell & Blundell, Ch. 13***:
-
-![](images/Screenshot%202025-10-06%20at%204.07.24%20PM.png)
-
-
-
-
-![](images/Screenshot%202025-10-06%20at%204.08.06%20PM.png)![](images/Screenshot%202025-10-06%20at%204.09.00%20PM.png)
+![](images/carnot-cycle-gpt.png)

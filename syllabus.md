@@ -71,8 +71,8 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 5  | W Sep 23 | Temperature, entropy, and heat | 3.1 - 3.2 | 3.2, 3.3, 3.4, 3.8, 3.9, 3.12, 3.16 |[Lecture 8](notes/lecture-8.html)
 | 6  | M Sep 28 | Thermodynamic identity | 3.3 - 3.4  | 3.19, 3.25, 3.27, 3.33, 3.34 |[Lecture 9](notes/lecture-9.html)
 | 6  | W Sep 30 | Thermodynamic relations  | 3.5 - 3.6  | 3.36, 3.37, 3.39  |[Lecture 10](notes/lecture-10.html)
-| 7  | M Oct 5  | Cycles, Heat, Work, 2nd Law | 4.1 | 4.1, 4.4, 4.5, 4.6 |
-| 7  | W Oct 7  | Review Ch. 1 - 3 |  |
+| 7  | M Oct 5  | Cycles, Heat, Work, 2nd Law | 4.1 | 4.1, 4.4, 4.5, 4.6 |[Lecture 11](notes/lecture-11.html)
+| 7  | W Oct 7  | Review | Ch. 1 - 3  | |  [Exam 1 Review](notes/exam-1-review.html)
 | 8  | M Oct 12 | *No class - Fall Break* |  |  |
 | 8  | W Oct 14 | **Exam 1**   |  |
 | 9  | M Oct 19 | Carnot Cycle, Engines and Fridges  | 4.2 - 4.3 | 4.7, 4.8, 4.14, 4.15, 4.16, 4.21 |

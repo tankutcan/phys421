@@ -4,6 +4,7 @@ title: "Physics 421 — Lecture Notes"
 
 [← Syllabus](../index.html)
 
+- [Exam 1 Review](exam-1-review.html)
 - [Lecture 1](lecture-1.html)
 - [Lecture 2](lecture-2.html)
 - [Lecture 3](lecture-3.html)
