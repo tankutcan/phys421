@@ -121,7 +121,12 @@ Thus for diatomic molecules, we saw above that $f = 7$. Three of these degrees o
 **C** Work is done ON the gas, $W > 0$.  The temperature decreases so that $\Delta U < 0$. In order to make $\Delta U < 0$ with positive work done on the gas, we have have heat leaving system $Q < 0$. 
 
 Overall, the total work done BY THE GAS is negative $W_{tot} < 0$, so that the total work done ON THE GAS is positive $W > 0$.  since $\Delta U_{tot} = 0$, we must have $Q < 0$. Net heat flows OUT OF the system. Maybe this is a fridge.
- 
+
+
+
+
+
+
 ***
 ### Rising Bubbles:
 
@@ -158,15 +163,32 @@ $$
 
 This is the crucial equation. For bubble $A$, we get
 
-Bubble A: $P V^{1 + 2/f} = {\rm constant}$
+Bubble A: $P V^{1 + 2/f} = P_{0} V_{0}^{1 + 2/f}$
 
-Bubble B: $P V = {\rm constant}$
+Bubble B: $P V = P_{0} V_{0}$
 
-The ratio of these is constant. Since the pressure is the same, we get
+Next, at the surface, the pressures are the same. And the initial pressure and volume are assumed to be the same. Therefore, we have
 
-$\frac{V_{A}^{1 + 2/f}}{V_{B}} = {\rm constant}$. 
+$$
+\frac{V_{A}}{V_{0}} = \left( \frac{P_{0}}{P_{f}}\right)^{\frac{1}{1 + 2/f}}
+$$
 
-If they start at the same volume, then after rising, bubble $A$ will be larger. $V \sim 1/P$ vs. $V \sim 1/P^{f/(2 + f)}$ 
+$$
+\frac{V_{B}}{V_{0}} = \left( \frac{P_{0}}{P_{f}}\right)
+$$
+Let $x = P_{0}/P_{f}$. The pressure at the surface is lower than the initial pressure underwater, which implies $x > 1$ . Next since $\gamma = 1 + 2/f > 1$, we have for $x> 1$, 
+
+$$
+x^{\gamma} > x
+$$
+
+which implies $x > x^{1/\gamma}$. Therefore,
+
+$$
+\frac{V_{A}}{V_{0}} = x^{1/\gamma} < x = \frac{V_{B}}{V_{0}}
+$$
+
+So $V_{B}> V_{A}$: the volume of bubble B is greater. 
 
 ***
 
