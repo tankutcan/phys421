@@ -79,9 +79,9 @@ I will regularly update the calendar with lecture notes and reading assignments.
 | 9  | W Oct 21 | Thermodynamic Potentials | 5.1-5.2 | 5.8, 5.12, 5.14, 5.17, 5.18, 5.19, 5.21, 5.23 | [Lecture 13](notes/lecture-13.html)
 | 10 | M Oct 26 | Phase transitions, PT diagrams | 5.3 | 5.20, 5.30, 5.31, 5.33, 5.43 | [Lecture 14](notes/lecture-14.html)
 | 10 | W Oct 28 | Phase transitions, PT diagrams | 5.3  |  | [Lecture 15](notes/lecture-15.html)
-| 11 | M Nov 2  | Boltzmann distribution | 6.1-6.2 |6.16, 6.17, 6.18, 6.19, 6.20, 6.22  |
-| 11 | W Nov 4  | Boltzmann distribution | 6.3-6.4 |6.31, 6.35, 6.38, 6.41 |
-| 12 | M Nov 9  | Partition Functions and Free Energy | 6.5-6.6  | 6.42, 6.43, 6.44| 
+| 11 | M Nov 2  | Boltzmann distribution | 6.1-6.2 |6.16, 6.17, 6.18, 6.19, 6.20, 6.22  |[Lecture 16](notes/lecture-16.html)
+| 11 | W Nov 4  | Boltzmann distribution | 6.3-6.4 |6.31, 6.35, 6.38, 6.41 | [Lecture 17](notes/lecture-17.html)
+| 12 | M Nov 9  | Partition Functions and Free Energy | 6.5-6.6  | 6.42, 6.43, 6.44|  [Lecture 18](notes/lecture-18.html)
 | 12 | W Nov 11 | Ideal Gas Law from Stat Mech | 6.7 |  6.45, 6.51, 6.52 |
 | 13 | M Nov 16 | Review Ch. 4-6 |  |  |
 | 13 | W Nov 18 |**Exam 2**  |  |  |
@@ -97,7 +97,9 @@ I will regularly update the calendar with lecture notes and reading assignments.
 ## Extra Homework Problems
 For your homework, you can also choose from the following set of additional problems, which I will keep adding to as the semester progresses. These are problems I used on past exams.
 
-[Additional Problems](notes/additional-problems.html)
+[Additional Problems, Ch. 1- 3](notes/additional-problems.html)
+
+[Additional Problems, Ch 4 - 6](notes/additional-problems-2.html)
 
 ## Lecture Notes
 Caution: lecture notes are not proofread, and may contain errors. If you think you spot an error, please let me know!

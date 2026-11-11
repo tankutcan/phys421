@@ -6,6 +6,7 @@ title: "Physics 421 — Lecture Notes"
 
 - [Exam 1 Review](exam-1-review.html)
 - [Lecture 1](lecture-1.html)
+- [Additional Problems 2](additional-problems-2.html)
 - [Lecture 2](lecture-2.html)
 - [Lecture 3](lecture-3.html)
 - [Lecture 4](lecture-4.html)
@@ -20,4 +21,7 @@ title: "Physics 421 — Lecture Notes"
 - [Lecture 13](lecture-13.html)
 - [Lecture 14](lecture-14.html)
 - [Lecture 15](lecture-15.html)
+- [Lecture 16](lecture-16.html)
+- [Lecture 17](lecture-17.html)
+- [Lecture 18](lecture-18.html)
 - [Additional Problems](additional-problems.html)
